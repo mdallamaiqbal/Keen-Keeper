@@ -6,7 +6,7 @@
     "email": "john.doe@example.com",
     "days_since_contact": 2,
     "status": "On-Track",
-    "tags": ["college", "close friend"],
+    "tags": ["COLLEGE"],
     "bio": "Met in university. Love hiking together.",
     "goal": 14,
     "next_due_date": "2026-04-27"
@@ -18,7 +18,7 @@
     "email": "jane.smith@work.com",
     "days_since_contact": 25,
     "status": "Overdue",
-    "tags": ["work", "mentor"],
+    "tags": ["WORK"],
     "bio": "Former manager. Great for career advice.",
     "goal": 21,
     "next_due_date": "2026-04-10"
@@ -30,7 +30,7 @@
     "email": "arivera@hobby.net",
     "days_since_contact": 6,
     "status": "Almost Due",
-    "tags": ["gym", "hobby"],
+    "tags": ["GYM", "HOBBY"],
     "bio": "Running partner from the track club.",
     "goal": 7,
     "next_due_date": "2026-04-16"
@@ -42,7 +42,7 @@
     "email": "sarah.c@tech.io",
     "days_since_contact": 45,
     "status": "Overdue",
-    "tags": ["networking", "tech"],
+    "tags": ["NETWORKING"],
     "bio": "Met at AI Conference. Interested in ML.",
     "goal": 30,
     "next_due_date": "2026-03-30"
@@ -54,7 +54,7 @@
     "email": "mbrown@family.com",
     "days_since_contact": 32,
     "status": "Overdue",
-    "tags": ["family"],
+    "tags": ["FAMILY"],
     "bio": "Cousin. Talk often about gaming.",
     "goal": 14,
     "next_due_date": "2026-03-28"
@@ -66,7 +66,7 @@
     "email": "emily.d@edu.com",
     "days_since_contact": 13,
     "status": "Almost Due",
-    "tags": ["college"],
+    "tags": ["WORK"],
     "bio": "Lab partner from Biology class.",
     "goal": 14,
     "next_due_date": "2026-04-16"
@@ -78,7 +78,7 @@
     "email": "liam.w@design.com",
     "days_since_contact": 5,
     "status": "On-Track",
-    "tags": ["work", "design"],
+    "tags": ["WORK"],
     "bio": "Freelance designer collaborator.",
     "goal": 30,
     "next_due_date": "2026-05-10"
@@ -90,7 +90,7 @@
     "email": "sofia.g@travel.org",
     "days_since_contact": 95,
     "status": "Overdue",
-    "tags": ["travel"],
+    "tags": ["TRAVEL"],
     "bio": "Met while backpacking in Europe.",
     "goal": 60,
     "next_due_date": "2026-03-10"
@@ -102,7 +102,7 @@
     "email": "dkim@corp.com",
     "days_since_contact": 28,
     "status": "Almost Due",
-    "tags": ["work", "finance"],
+    "tags": [ "FINANCE"],
     "bio": "Accounting lead. Tax season contact.",
     "goal": 30,
     "next_due_date": "2026-04-17"
@@ -114,7 +114,7 @@
     "email": "olivia.t@music.com",
     "days_since_contact": 1,
     "status": "On-Track",
-    "tags": ["hobby", "music"],
+    "tags": ["HOBBY", "MUSIC"],
     "bio": "Guitar teacher. Very patient.",
     "goal": 7,
     "next_due_date": "2026-04-21"
@@ -126,7 +126,7 @@
     "email": "noah.m@local.net",
     "days_since_contact": 75,
     "status": "Overdue",
-    "tags": ["neighbor"],
+    "tags": ["NEIGHBOR"],
     "bio": "Former neighbor from old apartment.",
     "goal": 45,
     "next_due_date": "2026-03-15"
@@ -138,7 +138,7 @@
     "email": "chloe.m@agency.biz",
     "days_since_contact": 40,
     "status": "Overdue",
-    "tags": ["networking"],
+    "tags": ["NETWORKING"],
     "bio": "Marketing agency contact. SEO expert.",
     "goal": 30,
     "next_due_date": "2026-04-05"
