@@ -12,12 +12,12 @@ const Stats = () => {
     ];
     return (
         <div className='max-w-6xl mx-auto'>
-           <h3 className='text-xl md:text-4xl font-extrabold'>Friendship Analytics </h3>
+           <h3 className='text-xl md:text-4xl font-extrabold mb-4'>Friendship Analytics </h3>
         {call && call.length === 0? (<div className='text-center p-20 bg-white rounded-lg shadow'>
          <h3 className='text-xl md:text-3xl font-bold'>No Data Here</h3>
          <Link to={'/'} className='btn mt-4 bg-[#FFF] font-bold text-[#244D3F]'>Go Back Home</Link>
         </div> )
-        :( <div className='flex justify-center'>
+        :( <div className='flex justify-center bg-white p-5'>
             <PieChart style={{ width: '100%', maxWidth: '500px', maxHeight: '80vh', aspectRatio: 1 }} responsive>
       <Pie
         data={data}
