@@ -12,7 +12,7 @@ const filterData = filter === 'All' ? call : call?.filter(item=>item.actionType 
 return (
 <div className='max-w-6xl mx-auto pb-20 '>
     <div className='flex flex-col gap-5'>
-        <h3 className='text-xl md:text-5xl font-extrabold'>Timeline </h3>
+        <h3 className='text-xl md:text-4xl font-extrabold'>Timeline </h3>
         <div className="dropdown dropdown-start">
             <div tabIndex={0} role="button" className="btn bg-[#FFF] m-1 flex items-center w-32 justify-between">{filter} <FaChevronDown /></div>
             <ul tabIndex="-1" className="dropdown-content menu bg-[#FFF] rounded-box z-1 w-52 p-2 shadow-sm">
