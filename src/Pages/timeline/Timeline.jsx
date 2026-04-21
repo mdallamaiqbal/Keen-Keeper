@@ -10,7 +10,7 @@ const {call} = useContext(CallContext);
 const [filter,setFilter] = useState('All');
 const filterData = filter === 'All' ? call : call?.filter(item=>item.actionType === filter)
 return (
-<div className='max-w-6xl mx-auto pb-20 '>
+<div className='max-w-6xl mx-auto pb-20 mt-10 md:mt-0'>
     <div className='flex flex-col gap-5'>
         <h3 className='text-xl md:text-4xl font-extrabold'>Timeline </h3>
         <div className="dropdown dropdown-start">
@@ -23,8 +23,8 @@ return (
             </ul>
         </div>
       {
-       filterData &&  filterData.length === 0 ? <div className='text-center p-20 bg-white rounded-lg shadow'>
-         <h3 className='text-xl md:text-3xl font-bold'>No Interactions Yet</h3>
+       filterData &&  filterData.length === 0 ? <div className='text-center p-10 sm:p-20 bg-white rounded-lg shadow'>
+         <h3 className=' sm:text-xl md:text-3xl font-bold'>No Interactions Yet</h3>
          <Link to={'/'} className='btn mt-4 bg-[#FFF] font-bold text-[#244D3F]'>Go Back Home</Link>
         </div> 
        : (

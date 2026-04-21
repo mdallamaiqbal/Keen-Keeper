@@ -36,8 +36,8 @@ const FriendDetails = () => {
         return <p className='flex justify-center'> <FadeLoader color='#244D3F' /> </p>
      }
     return (
-        <div className='max-w-6xl mx-auto flex flex-col md:flex-row gap-6 '>
-         <div className='max-w-96 md:ml-10'>
+        <div className='max-w-6xl  mx-auto flex flex-col lg:flex-row gap-6 mt-10 lg:mt-0'>
+         <div className=' lg:max-w-96 md:mr-10 lg:mr-0 md:ml-10'>
             <div className='p-6 rounded-lg bg-white shadow text-center'>
         <img src={detail.picture} className='mx-auto transition duration-300 hover:scale-110' alt="" />
         <h3 className='text-2xl font-semibold mt-4'>{detail.name}</h3>
@@ -52,13 +52,13 @@ const FriendDetails = () => {
             <p className='text-sm text-[#64748B]'>Email: {detail.email}</p>
          </div>
           <div className='mt-4 flex flex-col gap-4'>
-            <h4 className='py-4 bg-white px-24 flex justify-center items-center gap-2 font-medium'><TiBell className="-translate-y-0.5 text-2xl"/> Snooze 2 weeks</h4>
-            <h4 className='py-4 bg-white px-24 flex justify-center items-center gap-2 font-medium'><FiArchive className="-translate-y-0.5 text-xl"/> Archive</h4>
-            <h4 className='py-4 bg-white px-24 flex justify-center items-center gap-2 font-medium text-red-500'><RiDeleteBinLine className="-translate-y-0.5 text-xl"/> Delete</h4>
+            <h4 className='py-4 bg-white sm:px-24 flex justify-center items-center gap-2 font-medium'><TiBell className="-translate-y-0.5 text-2xl"/> Snooze 2 weeks</h4>
+            <h4 className='py-4 bg-white sm:px-24 flex justify-center items-center gap-2 font-medium'><FiArchive className="-translate-y-0.5 text-xl"/> Archive</h4>
+            <h4 className='py-4 bg-white sm:px-24 flex justify-center items-center gap-2 font-medium text-red-500'><RiDeleteBinLine className="-translate-y-0.5 text-xl"/> Delete</h4>
          </div>
          </div>
          <div>
-            <div className='grid grid-cols-3 gap-1 sm:gap-4'>
+            <div className='grid sm:grid-cols-3 gap-4'>
                 <div className='bg-white px-4 py-3 sm:py-6 text-center rounded-lg'>
                 <h3 className='text-xl md:text-3xl text-[#244D3F] font-semibold'>{detail.days_since_contact}</h3>
                <p className='text-[#64748B] mt-2'>Days Since Contact</p>

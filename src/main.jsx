@@ -10,6 +10,7 @@ import Timeline from './Pages/timeline/Timeline'
 import Stats from './Pages/stats/Stats'
 import FriendDetails from './Pages/friendDetails/FriendDetails'
 import CallProvider from './context/CallProvider'
+import NotFound from './Pages/notfound/NotFound'
 
 const router = createBrowserRouter([
   {
@@ -33,7 +34,8 @@ const router = createBrowserRouter([
     element:<FriendDetails />
   }
  
-    ]
+    ],
+    errorElement: <NotFound/>
   }
 ])
 

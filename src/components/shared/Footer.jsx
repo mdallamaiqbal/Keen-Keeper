@@ -34,7 +34,7 @@ const Footer = () => {
    <div className='flex flex-col md:flex-row gap-4 md:gap-28 mt-4'>
      <p className='text-[#FAFAFA]/40 text-sm'>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
      <div>
-        <ul className='flex gap-4 text-[#FAFAFA]/40 text-sm'>
+        <ul className='flex flex-wrap justify-center md:justify-end gap-x-6 gap-y-2 text-[#FAFAFA]/40 text-sm'>
         <li>Privacy Policy</li>
         <li>Terms of Service</li>
         <li>Cookies</li>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <div className='container mx-auto mt-20'>
+        <div className='container mx-auto mt-10 md:mt-20'>
            <h2 className='text-xl md:text-5xl font-bold text-center '>Friends to keep close in your life</h2>
            <p className='text-sm md:text-base text-gray-400 mt-4 text-center'>Your personal shelf of meaningful connections. Browse, tend, and nurture the <br />
                 relationships that matter most.</p>
